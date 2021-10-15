@@ -1,0 +1,759 @@
+/* css du header*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+html{
+    font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+}
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 800px;}
+header {
+	background: url('https://zupimages.net/up/21/41/iss0.jpg');
+	text-align: center;
+	width: 100%;
+	height: 60%;
+	background-size:100%;
+	background-attachment: fixed;
+	position: relative;
+  overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	
+}
+a{text-decoration: none;
+  color: rgb(0, 132, 255);}
+
+h1{color: rgb(255, 255, 255)!important;
+  text-align:center;
+  padding-top: 5%;
+  font-size: 80px;
+  margin-bottom: 30px;
+font-family: 'poppins';}
+
+h2{
+  color: black!important;
+  font-size: 25px;
+  font-family: 'poppins';
+}
+
+h3, p {
+	font-family: 'poppins';
+	margin-bottom: 30px;
+padding-bottom: 3%;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+    font-size: 15px;
+    font-family: 'poppins';
+    font-weight: bold;
+    
+}
+button:hover{
+	cursor: pointer;
+    background-color: orange;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    }
+
+/* CSS accueil*/
+
+.partenaire{
+  color: black!important;
+font-size: 350%;
+padding-left: 2%;
+font-family: 'poppins';
+padding-bottom: 3%;
+}
+
+.image-accueil{
+ display: flex;
+ justify-content: space-between;
+
+  
+}
+
+
+.pourquoi{
+  color: black!important;
+  font-size: 300%;
+  padding-left: 2%;
+  font-family: 'poppins';  
+}
+
+.methode{
+  font-size: 20px;
+  color:rgb(172, 165, 165);
+  font-family: 'poppins';
+}
+
+
+.large-reseau{
+  text-align: center;
+  color: rgb(112, 112, 189);
+}
+
+.conseils-avises{
+  text-align: center;
+  color: rgb(112, 112, 189);
+}
+
+.tarifs-transparents{
+  text-align: center;
+  color: rgb(112, 112, 189);
+}
+
+.nos-services{
+  text-align: center;
+  font-size: 300%;
+  font-family: 'poppins';
+}
+
+.reseau{
+  font-size: 25px;
+  color: black;
+  font-family: 'poppins';
+}
+
+#cas{
+  border:2px black;
+  width: 350px;
+  height: 150px;
+  border: 5px solid black;
+  font-family: 'poppins';
+}
+
+#cas{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.fusion{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
+}
+
+.box{
+  width: 350px;
+  background: transparent;
+  border-radius: 10px;
+  border: solid 6px rgb(212, 212, 240);
+  /* text-align: center; */
+  padding: 10px;
+  color: black;
+  font-family: 'poppins';
+  margin-top:19%;
+}
+
+
+#menu1{align-items: center;
+  
+  background: linear-gradient(110deg,white 50%, lavender 50%);
+  display: flex; 
+  flex-direction:column;
+  height: 3.695313rem;
+  padding-bottom: 1%;
+  width: 1525px;
+  height: 550px;
+  margin-top: 6%;
+  }
+
+  #menu2{align-items: center;
+      background-color: lavender;
+      display: flex; 
+      flex-direction:column;
+      height: 3.695313rem;
+      padding-bottom: 1%;
+      width: 1525px;
+      height: 550px;
+      }
+  
+  .fusion2{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 3%;
+  }
+  
+  .box2{
+      width: 400px;
+      height: 450px;
+      background: white;
+      border: solid 20px lavender;
+      border-radius: 90px;
+      /* text-align: center; */
+      padding: 1px;
+      padding-left: 5%;
+      color: black;
+      font-family: 'poppins';
+      font-weight: bold;
+      font-size: 15px;
+  }
+  
+  li{
+      padding-left: 10%;
+  }
+  
+  .renovation {
+      text-align: center;
+  color: rgb(112, 112, 189);
+  }
+
+.façade{
+  text-align: center;
+  color: rgb(112, 112, 189);
+  }
+
+.maçonnerie{text-align: center;
+  color: rgb(112, 112, 189);
+  }
+  
+
+
+.fusion-images{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nos-realisations{
+  font-size: 300%;
+  color: black;
+  font-family: 'poppins';
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+
+.photos-chantiers{
+  font-size: 20px;
+  color: rgb(172, 165, 165);
+  text-align: center;
+}
+
+.fusion-textes{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8%;
+}
+
+.texte{
+  border: solid 2px white;
+  background-color: white;
+  padding-left: 3%;
+  font-weight: bold;
+}
+
+ /*css de la présentation*/
+
+ .photo-transparente {
+  background-image: url('https://zupimages.net/up/21/41/my00.png');
+  width: 1520px;
+  height: 350px;
+  padding: auto;
+margin-top: 5%;}
+  
+  .titre-h1{color: rgb(214, 150, 11)!important;
+  text-align:center;
+  font-size: 80px;
+word-spacing: 0.5em;
+position: relative;
+top: 10%;}
+
+#présentationBTP{margin: 2%;
+text-align:center;
+padding-top: 7%;
+padding-bottom: 10%;}
+
+.prof{padding-bottom: 2%;
+}
+
+#textpeintre{display: flex;
+  justify-content: space-around;
+padding-top: 4%;
+padding-bottom: 6%;}
+
+.notrepassion{position: relative;
+top:150px;}
+
+.pour{padding-bottom: 2%;}
+
+.maps{display: flex;
+    justify-content: space-around;
+padding-top: 10%;
+padding-bottom: 3%;
+background-image: linear-gradient( 
+110deg, white 50%, lavender 50%);
+}
+
+    .adresse{position: relative;
+    padding-top: 10%;}
+
+    .titre-prof{padding-right: 13%;}
+
+    .titre-pour{padding-right: 24%;}
+
+/*css équipe */
+
+
+#présentationékip{margin:2%;
+font-style: italic;
+font-weight: bold;
+padding-top: 7%;
+padding-bottom: 10%;
+background-image: linear-gradient( 
+63deg, lavender 50%, white 50%);
+}
+
+#Tiago{display:flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+#Sandro{display:flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+
+#Miguel{display:flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+#Rodrigo{display:flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+
+#Livia{display:flex;
+justify-content: space-around;
+padding-bottom: 5%;
+}
+
+#Pablo{display:flex;
+justify-content: space-around;
+}
+
+.tia{position:relative;
+top: 100px;
+left: 110px;
+border: 1px solid rgb(97, 60, 4);
+border-radius: 8px;
+height: 10%;}
+
+.san{position:relative;
+  top: 140px;
+  right: 170px;
+  border: 1px solid rgb(97, 60, 4);
+  border-radius: 8px;
+  height: 10%;}
+
+ .mig{position:relative;
+  top: 100px;
+  left: 130px;
+  border: 1px solid rgb(97, 60, 4);
+  border-radius: 8px;
+  height: 10%;} 
+
+  .rod{position:relative;
+    top: 110px;
+    right: 150px;
+    border: 1px solid rgb(97, 60, 4);
+    border-radius: 8px;
+    height: 10%;}
+    
+    .liv{position:relative;
+      top: 100px;
+      left: 110px;
+      border: 1px solid rgb(97, 60, 4);
+      border-radius: 8px;
+      height: 10%;}
+
+      .pab{position:relative;
+        top: 140px;
+        right: 80px;
+        border: 1px solid rgb(97, 60, 4);
+        border-radius: 8px;
+        height: 10%;}
+
+/* css du formulaire contact  */
+
+#debut-contact{display: flex;
+justify-content: space-evenly;
+padding-top: 4%;
+padding-bottom: 2%;
+background-image: linear-gradient( 
+  120deg, white 50%, lavender 50%);}
+
+  .titre-contact{font-size: 190%;
+    text-align: center;
+    margin-top: 7%;
+  margin-bottom: 3%;
+}
+
+#nous-contacter{
+ width: 100%;
+  height: 10%;
+  text-align: center;
+  position: relative;
+  left: 15%;
+}
+
+#Devis{display: flex;
+  justify-content: space-around;
+  padding-right: 5%;
+  padding-top: 7%;
+  padding-bottom: 10%;
+}
+
+.photo-devis{padding-top: 20%;
+position: relative;
+right: 10%;}
+
+.form-devis{width: 250%;
+  height: 50%;
+    font-family: "poppins";
+    color: #303030;
+}
+    
+    form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+    }
+    
+    form div > label {
+    margin-bottom: 7px;
+    font-weight: 600;
+    }
+    
+    form div > input, form div > select, form div > textarea {
+    background: rgb(209, 209, 218);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat, "sans-serif";
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+    }
+    
+    form div > textarea {
+    height: 195px;
+    padding: 15px 0px 0px 10px;
+    }
+    
+    form div > input::placeholder, form div > textarea::placeholder {
+    color: white;
+    }
+    
+    form div > select:invalid {
+    color: white;
+    }
+    
+    form div:last-child {
+    align-items:center;
+    margin-top: 20px;
+    }
+    /* css page "nos réalisations"*/
+
+h4{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-justify: auto;
+}
+
+#titre-renovation{
+  padding-top: 8%;
+  padding-left: 15%;
+  font-size: 35px;
+}
+
+#feax{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3%;
+}
+
+#formulaire{
+  left: 0%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10%;
+}
+
+#renov{padding-bottom: 10%;}
+
+
+#titre-appart{color: black!important;
+  font-size: 35px;
+  padding-left: 15%;
+  padding-bottom: 3%;
+  font-family: 'poppins';
+}
+
+  #titre-bureau{color: black!important;
+    font-size: 35px;
+    padding-left: 15%;
+    font-family: 'poppins';
+    padding-bottom: 3%;
+   }
+
+.escalier{
+  padding-left: 15%;
+  padding-top: 2%;
+  font-weight: bold;
+  font-size: large; 
+}
+
+.refection-cuisine{
+  padding-left: 15%;
+  padding-top: 2%;
+  font-weight: bold;
+  font-size: large;  
+}
+
+.renovation-bain{
+  padding-left: 15%;
+  padding-top: 2%;
+  font-weight: bold;
+  font-size: large;  
+}
+
+.cabinet{
+  padding-left: 15%;
+  padding-top: 2%;
+  font-weight: bold 
+}
+
+.map{
+  padding-top: 5%;
+  padding-right: 3%;
+  
+}
+
+.texte-renovation{
+  width:120% ;
+  height: 85%;
+   padding-left: 15%;
+  padding-top: 4%;
+  border: thick double #6181d8;
+ 
+   font-family: 'poppins';
+   font-weight: bold;
+}
+
+.image-entré{
+  text-align: end;
+  border: solid 4px black;
+   border: thick double #6181d8;
+}
+
+.image-cuisine{position: relative;
+  left: 15%;
+  border: solid 4px black;
+  border: thick double #6181d8;
+}
+
+.image-salle{position: relative;
+  left: 15%;
+  text-align: end;
+  border: solid 4px black;
+   border: thick double #6181d8;
+  }
+  
+
+.image-bureau{position: relative;
+  left: 15%;
+  text-align: end;
+  border: solid 4px black;
+   border: thick double #6181d8;
+}
+
+/* CSS formulaire laisser un commentaire*/
+#section-header{
+  background: white;
+  font-family: "poppins";
+  display: flex;
+  justify-content: center;
+  color: #303030;
+  }
+  
+  .contactez-nous {
+  width: 700px;
+  border-radius: 8px;
+  padding: 0 50px 0 50px;
+  background: white;
+  }
+  
+.contactez-nous{
+  padding-right: 10%;
+}
+
+
+.contactez-nous > h1 {
+  font-weight: 500;
+  }
+  
+.contactez-nous > p {
+  font-weight: 300;
+  }
+  
+form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 83px;
+  margin-top: 25px;
+  }
+  
+  form div > label {
+  margin-bottom: 7px;
+  font-weight: 600;
+  }
+  
+  form div > input, form div > select, form div > textarea {
+  background: #90a1d1;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, "sans-serif";
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+  }
+  
+  form div > input, form div > select {
+  height: 50px;
+  padding-left: 10px;
+  }
+  
+  form div > select {
+  appearance: none;
+  background-size: 15px;
+  background-color:blueviolet;
+  background-position: right 10px top 50%;
+  background-repeat: no-repeat;
+  }
+  
+  form div > textarea {
+  height: 195px;
+  padding: 15px 0px 0px 10px;
+  }
+  
+  form div > input::placeholder, form div > textarea::placeholder {
+  color: white;
+  }
+  
+  form div > select:invalid {
+  color: white;
+  }
+  
+  form div > select option {
+  background: white;
+  color: #303030;
+  }
+  
+  form div:last-child {
+  align-items:center;
+  margin-top: 20px;
+  }
+  
+  form button {
+  width: 450px;
+  max-width: 500px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  background: white;
+  border: rgba(48, 48, 48, 0.5) solid 1px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  color: #303030;
+  justify-content: center;
+  }
+
+  
+    /* css du footer*/
+
+  .avantfooter{background-image: url("https://zupimages.net/up/20/50/qxax.png" ) ;}
+    
+     
+        
+    .tar{font-size: 200% ;
+            text-align: center;}
+       
+    
+  h6{font-size: 450%;
+    text-align: center;
+    position: relative;
+bottom: 50%;}
+
+.footer-dark {
+  padding:50px 0;
+  color:#ffffff;
+  background-image: linear-gradient( 
+135deg,#fd5e086b 10%,#9f05ff69 100%);
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}   
+      
+     .copyright {
+        text-align:center;
+        padding-top:24px;
+        opacity:0.9;
+        font-size:13px;
+        margin-bottom:0;
+      }
+
+.horaire{padding-left: 28%;
+text-align: center;
+}
+
+.titre-h{font-size: 130%;
+padding-bottom: 8%;
+}
+
+.row{display: flex;  
+  justify-content: space-around;
+  text-align: 5%;}
+  
+  .raw{display: flex;
+    justify-content: space-between;
+      padding-top: 3%;
+      padding-right: 20%;}
+  
+      /*css du bouton retour en haut*/
+      html {scroll-behavior: smooth;}
+       
+      .haut-de-page {bottom : 10px;
+        right: -100px;
+        position: relative;
+        left:95%;
+        width: 0px;
+        }
+      
